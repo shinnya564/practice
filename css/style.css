@@ -9,43 +9,35 @@ body{
 
 header{
 	text-align:center;
-	margin: 10px;
+	margin: 40px;
+}
+
+img.title{
+	width: 400px;
 }
 
 a{
-	margin: 0px;
+	margin: auto;
 	color: #000000;
 }
 
-h1{
-	font-size: 50px;
-	font-weight:10;
-	letter-spacing:15px; /*文字間隔*/
-	color: orange;
-	margin-top: 30px ;
-	margin-bottom: 30px;
-}
-
 .tag1{
-	margin: 10px;
-	padding: 15px;
+	margin: 25px;
+	padding: 15px 25px;
 	background-color: #FF4500;
 	border-radius: 10px/20px;
 }
 
 .tag2{
-	margin: 10px;
+	margin: 0px 25px;
+	padding: 0px 10px;
 	border: solid 1px #000000;
 	border-radius: 10px/20px;
 }
 
 .tag3{
-	margin: 25px;
-}
-
-.tag4{
-	margin: 0px;
-	color: #FF4500;
+	margin: 20px 25px;
+	padding: 0px 25px;
 }
 
 h2{
@@ -54,18 +46,26 @@ h2{
 }
 
 h3{
-	margin: 15px;
+	padding: 5px 0px ;
+	margin: 10px 15px ;
 	font-size: 15px;
+}
+
+h4{
+	padding: 5px 0px ;
+	font-size: 15px;
+	color:#FF4500;
 }
 
 ul{
 	padding-inline-start: 0px;
 	text-align: center;
+	margin: 40px;
 }
 
 li{
 	display: inline;
-	margin:  20px;
+	margin:  30px;
 }
 
 .btn-border-bottom {
@@ -95,36 +95,114 @@ li{
 }
 
 footer{
+	margin: 20px;
 	font-size: 10px;
-	text-align:center
+	text-align:center;
 }
 
 /* index */
 
-img.header{
+.main-image{
+	margin:25px;
+}
+
+img.main{
 	width: 100% ;
 	height: auto ;
-	border-radius: 30px/40px;
+	border-radius: 10px/20px;
 }
 
-table{
-	margin: 20px;
+table.index{
+	margin: 15px;
+	padding: 0px 25px;
 }
 
-td{
+table.index td{
 	vertical-align: super;
 	padding: 10px;
 }
 
+
 /* about */
+
+
+.about{
+	width: 100%;
+	margin:auto;
+}
+
+table.about{
+	margin: 25px;
+}
+
+table.about th{
+	padding: 15px 0px;
+	border:1px solid #AAAAAA;
+	background:#EEEEEE;
+	text-align: left;
+}
+
+table.about th.title{
+	width: 30%;
+	background:#ffffff;
+	text-align: center;
+}
+
+table.about th.body{
+	width: 70%;
+	background:#ffffff;
+}
 
 /* gallery */
 
+.gallery{
+	width: 100%
+	margin:auto;
+}
+
+.main-gallery{
+	width: 100%
+	margin: 25px;
+}
+
 img.gallery{
 	width: 100px ;
-	height: auto ;
-	float : left;
+	margin: 10px;
+}
+
+tr.gallery{
+	border:1px solid #000000;
 }
 
 /* Link */
 
+.link{
+	width: 100%
+	margin:auto;
+}
+
+table.link{
+	margin: 25px;
+}
+
+img.link{
+	width :80%;
+}
+
+table.link th{
+	padding: 15px 0px;
+	text-align: left;
+	border:1px solid #AAAAAA;
+	background:#EEEEEE;
+}
+
+table.link th.title{
+	width: 30%;
+	background:#ffffff;
+	text-align: center;
+}
+
+table.link th.body{
+	width: 70%;
+	background:#ffffff;
+}
