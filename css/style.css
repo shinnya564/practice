@@ -4,7 +4,8 @@
 
 body{
 	margin: auto;
-	max-width: 1400px;
+	max-width: 1500px;
+	color: #666666;
 }
 
 header{
@@ -17,21 +18,45 @@ img.title{
 }
 
 a{
-	margin: auto;
-	color: #000000;
+	margin: auto ;
+	color: #666666 ;
+}
+
+.table{
+	width: 100%
+	margin:auto;
+}
+
+table {
+	margin: 25px;
+	border-collapse: collapse;
+}
+
+th{
+	padding: 15px 0px;
+	text-align: left;
+	border-collapse: collapse;
+	border:1px solid #AAAAAA;
+	background:#EEEEEE;
+}
+
+td{
+	padding: 15px 0px;
+	border:1px solid #AAAAAA;
+	background:#ffffff;
 }
 
 .tag1{
 	margin: 25px;
 	padding: 15px 25px;
-	background-color: #FF4500;
+	background-color: #FF9933;
 	border-radius: 10px/20px;
 }
 
 .tag2{
 	margin: 0px 25px;
 	padding: 0px 10px;
-	border: solid 1px #000000;
+	border: solid 1px #666666;
 	border-radius: 10px/20px;
 }
 
@@ -54,7 +79,7 @@ h3{
 h4{
 	padding: 5px 0px ;
 	font-size: 15px;
-	color:#FF4500;
+	color:#FF9933;
 }
 
 ul{
@@ -74,7 +99,7 @@ li{
   font-weight: bold;
   padding: 0.25em 0;
   text-decoration: none;
-  color: #000000;
+  color: #666666;
 }
 
 .btn-border-bottom:before {
@@ -96,8 +121,12 @@ li{
 
 footer{
 	margin: 20px;
-	font-size: 10px;
+	font-size: 12px;
 	text-align:center;
+}
+
+a.footer{
+	text-decoration: none;
 }
 
 /* index */
@@ -112,97 +141,62 @@ img.main{
 	border-radius: 10px/20px;
 }
 
-table.index{
-	margin: 15px;
-	padding: 0px 25px;
-}
-
 table.index td{
 	vertical-align: super;
 	padding: 10px;
+	border: 0px solid #AAAAAA;
 }
 
 
 /* about */
 
-
-.about{
-	width: 100%;
-	margin:auto;
-}
-
-table.about{
-	margin: 25px;
-}
-
-table.about th{
-	padding: 15px 0px;
-	border:1px solid #AAAAAA;
-	background:#EEEEEE;
-	text-align: left;
-}
-
-table.about th.title{
-	width: 30%;
-	background:#ffffff;
+table.about td.title{
+	width: 5%;
 	text-align: center;
 }
 
-table.about th.body{
-	width: 70%;
-	background:#ffffff;
+table.about td.body{
+	width: 20%;
 }
+
 
 /* gallery */
 
-.gallery{
-	width: 100%
-	margin:auto;
-}
-
-.main-gallery{
-	width: 100%
-	margin: 25px;
+tr.gallery{
+	border: 1px solid #000000;
 }
 
 img.gallery{
-	width: 100px ;
 	margin: 10px;
+	max-width: 70%;
 }
 
-tr.gallery{
-	border:1px solid #000000;
+/* table width total 90% */
+table.gallery td.title{
+	width: 20% ;
+	border: 0px ;
+	border-bottom: 1px solid #AAAAAA;
 }
+
+table.gallery td.body{
+	width: 70%;
+	border:0px solid #AAAAAA;
+	border-bottom: 1px solid #AAAAAA;
+	vertical-align:top
+}
+
 
 /* Link */
-
-.link{
-	width: 100%
-	margin:auto;
-}
-
-table.link{
-	margin: 25px;
-}
 
 img.link{
 	width :80%;
 }
 
-table.link th{
-	padding: 15px 0px;
-	text-align: left;
-	border:1px solid #AAAAAA;
-	background:#EEEEEE;
-}
-
-table.link th.title{
+table.link td.title{
 	width: 30%;
-	background:#ffffff;
 	text-align: center;
 }
 
-table.link th.body{
+table.link td.body{
 	width: 70%;
-	background:#ffffff;
 }
